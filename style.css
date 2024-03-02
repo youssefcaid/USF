@@ -38,8 +38,8 @@ body{
 }
 
 .start_btn button{
-    font-size: 25px;
-    font-weight: 500;
+    font-size: auto;
+    font-weight: auto;
     color: #007bff;
     padding: 15px 30px;
     outline: none;
@@ -50,7 +50,7 @@ body{
 }
 
 .info_box{
-    width: 540px;
+    width: auto;
     background: #fff;
     border-radius: 5px;
     transform: translate(-50%, -50%) scale(0.9);
@@ -60,7 +60,7 @@ body{
 }
 
 .info_box .info-title{
-    height: 60px;
+    height: auto;
     width: 100%;
     border-bottom: 1px solid lightgrey;
     display: flex;
@@ -81,7 +81,7 @@ body{
 }
 
 .info_box .info-list .info span{
-    font-weight: 600;
+    font-weight: auto;
     color: #007bff;
 }
 .info_box .buttons{
@@ -108,7 +108,7 @@ body{
 }
 
 .quiz_box{
-    width: 550px;
+    width: auto;
     background: #fff;
     border-radius: 5px;
     transform: translate(-50%, -50%) scale(0.9);
@@ -311,7 +311,7 @@ footer button.show{
     border-radius: 5px;
     display: flex;
     padding: 25px 30px;
-    width: 450px;
+    width: auto;
     align-items: center;
     flex-direction: column;
     justify-content: center;
@@ -322,26 +322,26 @@ footer button.show{
 }
 
 .result_box .icon{
-    font-size: 100px;
+    font-size: auto;
     color: #007bff;
-    margin-bottom: 10px;
+    margin-bottom: auto;
 }
 
 .result_box .complete_text{
     font-size: 20px;
-    font-weight: 500;
+    font-weight: auto;
 }
 
 .result_box .score_text span{
     display: flex;
     margin: 10px 0;
     font-size: 18px;
-    font-weight: 500;
+    font-weight: auto;
 }
 
 .result_box .score_text span p{
     padding: 0 4px;
-    font-weight: 600;
+    font-weight: auto;
 }
 
 .result_box .buttons{
@@ -351,10 +351,10 @@ footer button.show{
 
 .result_box .buttons button{
     margin: 0 10px;
-    height: 45px;
-    padding: 0 20px;
-    font-size: 18px;
-    font-weight: 500;
+    height: auto;
+    padding: 0 18px;
+    font-size: 12px;
+    font-weight: auto;
     cursor: pointer;
     border: none;
     outline: none;
